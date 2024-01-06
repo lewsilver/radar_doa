@@ -1,6 +1,6 @@
-% MUSIC
+% Propagator
 % P = 1/(a'QQ'a)
-% Q = pinv(A1'A1)A1A2
+% Q = A2A1'pinv(A1A1')
 clc; clear; close all;
 
 %% Initial signal
